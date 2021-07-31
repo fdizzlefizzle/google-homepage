@@ -9,32 +9,55 @@
     <title>Google</title>
   </head>
   <body>
-    <div class="link-container">
-      <div id="left-links">
-        <a href="https://about.google/?fg=1&utm_source=google-AU&utm_medium=referral&utm_campaign=hp-header">About</a>
-        <a href="https://store.google.com/AU/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-AU">Store</a>
-      </div>
-      <div class="right-links">
-        <a href="https://www.google.com/intl/en-GB/gmail/about/">Gmail</a>
-        <a href="https://www.google.com.au/imghp?hl=en&ogbl">Images</a>
-      </div>
-      <i class="material-icons" style="font-size: 50px" >apps</i>
-      <button>Sign in</button>
-    </div>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" link="https://google.com">
-    <div class="mid-container">
-      <div class="search-container">
-        <div class="material-icons-container">
-          <i class="material-icons icon-search" style="font-size: 20px">search</i>
+    <div class="page-container">
+      <div class="link-container">
+        <div ul class="link-list-left">
+          <li><a href="https://about.google/?fg=1&utm_source=google-AU&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+          <li><a href="https://store.google.com/AU/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-AU">Store</a></li>
         </div>
-          <input type="search" class="search-bar" value="" title="search">
+        <div ul class="link-list-right">
+          <div class="link-right">
+            <li><a href="https://www.google.com/intl/en-GB/gmail/about/">Gmail</a></li>
+            <li><a href="https://www.google.com.au/imghp?hl=en&ogbl">Images</a></li>
+            <li><div><i class="material-icons icon-apps" >apps</i></li>
+            <li><div class="sign-in-container">
+              <input class="sign-in" value="Sign in" type="submit" name="Sign in"></li>
+          </ul></div>
+        </div>
       </div>
-      <div class="bot-buttons-container">
-        <input class="bot-buttons" value="Google Search" type="submit" name="Google Search">
-        <input class="bot-buttons" value="I'm Feeling Lucky" type="submit" name="I'm Feeling Lucky">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" link="https://google.com">
+      <div class="mid-container">
+        <div class="search-container">
+          <div class="material-icons-container">
+            <i class="material-icons icon-search" style="font-size: 20px">search</i>
+          </div>
+            <input type="search" class="search-bar" value="" title="search">
+        </div>
+        <div class="bot-buttons-container">
+          <input class="bot-buttons" value="Google Search" type="submit" name="Google Search">
+          <input class="bot-buttons" value="I'm Feeling Lucky" type="submit" name="I'm Feeling Lucky">
+        </div>
+      </div>
+      <div class="empty-block">
+      </div>
+      <div class="bot-container">
+        <div class="bot-upper-container">
+          Australia
+        </div>
+        <div class="bot-lower-container">
+          <div class="bot-lower-left">
+            <a class="bot-links" href="https://ads.google.com/intl/en_au/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+            <a class="bot-links" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+            <a class="bot-links" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+          </div>
+          <div class="bot-lower-right">
+            <a class="bot-links" href="https://policies.google.com/privacy?hl=en-AU&fg=1">Privacy</a></li>
+            <a class="bot-links" href="https://policies.google.com/terms?hl=en-AU&fg=1">Terms</a></li>
+            <a class="bot-links" href="">Settings</a></li>
+          </div>
+        </div>
       </div>
     </div>
-    
     <script src="scripts/main.js"></script>
 
   </body>
